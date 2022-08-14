@@ -13,6 +13,8 @@
 
 ![helix preview](assets/preview.webp)
 
+# IMPORTANT: THIS IS NOT THE ACTUAL HELIX THEME REPO. YOU CAN FIND THIS REPO [HERE](https://github.com/catppuccin/helix). THIS REPO EXISTS SOLELY FOR THE PURPOSE OF TESTING NEW TOOLS AND APIS. IT WILL BE TERMINATED SOON.
+
 ## Usage
 
 1. Copy the contents of the `themes/default` or `themes/no_italics` folder into `$HOME/.config/helix/themes/`.
