@@ -6,24 +6,24 @@ install_files:
   - themes/
 install_flavours: # Specific flavours
   latte:
-    default: # Default and no-italic variants
+    - default: # Default and no-italic variants
       - themes/default/latte.toml
-    no-italics:
+    - no-italics:
       - themes/no-italics/latte.toml
   frappe:
-    default:
+    - default:
       - themes/default/frappe.toml
-    no-italics:
+    - no-italics:
       - themes/no-italics/frappe.toml
   macchiato:
-    default:
+    - default:
       - themes/default/macchiato.toml
-    no-italics:
+    - no-italics:
       - themes/no-italics/macchiato.toml
   mocha:
-    default:
+    - default:
       - themes/default/mocha.toml
-    no-italics:
+    - no-italics:
       - themes/no-italics/mocha.toml
   to: themes/ # Install location
 one_flavour: no # Only one flavour?
