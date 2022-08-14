@@ -27,3 +27,5 @@ install_flavours: # Specific flavours
       - themes/no-italics/mocha.toml
   to: themes/ # Install location
 one_flavour: false # Only one flavour?
+modes: # Additional modes
+  - no-italics
