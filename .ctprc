@@ -3,7 +3,7 @@ app_name         : Helix
 path_name        : hx
 install_location : .
 install_files:
-  - themes/*
+  - themes/
 install_flavours: # Specific flavours
   latte:
     default: # Default and no-italic variants
@@ -25,4 +25,4 @@ install_flavours: # Specific flavours
       - themes/default/mocha.toml
     no-italics:
       - themes/no-italics/mocha.toml
-  to: themes # Install location
+  to: themes/ # Install location
