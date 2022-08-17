@@ -4,9 +4,12 @@ path_name: hx
 install_location:
   unix: ~/.config/helix/
   windows: "%appdata%/helix/"
-install_files:
-  - themes/
 install_flavours: # Specific flavours
+  all:
+    - default:
+      - themes/default
+    - no-italics:
+      - themes/no-italics
   latte:
     - default: # Default and no-italic variants
       - themes/default/catppuccin_latte.toml
