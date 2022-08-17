@@ -2,8 +2,8 @@
 app_name: Helix
 path_name: hx
 install_location:
-  unix: ~/.config/helix/config.toml
-  windows: "%appdata%/helix/config.toml"
+  unix: ~/.config/helix/
+  windows: "%appdata%/helix/"
 install_files:
   - themes/
 install_flavours: # Specific flavours
