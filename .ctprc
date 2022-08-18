@@ -6,29 +6,29 @@ install_location:
   windows: "%appdata%/helix/"
 install_flavours: # Specific flavours
   all:
-    - default:
+    default:
       - themes/default
-    - no-italics:
+    no-italics:
       - themes/no-italics
   latte:
-    - default: # Default and no-italic variants
+    default: # Default and no-italic variants
       - themes/default/catppuccin_latte.toml
-    - no-italics:
+    no-italics:
       - themes/no-italics/catppuccin_latte.toml
   frappe:
-    - default:       
+    default:       
       - themes/default/catppuccin_frappe.toml
-    - no-italics:
+    no-italics:
       - themes/no-italics/catppuccin_frappe.toml
   macchiato:
-    - default:
+    default:
       - themes/default/catppuccin_macchiato.toml
-    - no-italics:
+    no-italics:
       - themes/no-italics/catppuccin_macchiato.toml
   mocha:
-    - default:
+    default:
       - themes/default/catppuccin_mocha.toml
-    - no-italics:
+    no-italics:
       - themes/no-italics/catppuccin_mocha.toml
   to: themes/ # Install location
 one_flavour: false # Only one flavour?
