@@ -1,10 +1,11 @@
 # A Catppuccin RC file for Helix. In beta, specs may change.
 app_name: Helix # name of app
 binary_name: hx # name of executably
-install_location:
-  unix: ~/.config/helix/
-  windows: "%appdata%/helix/"
 installation: # Install instructions
+  location:
+    macos: ~/.config/helix
+    linux: ~/.config/helix
+    windows: "%appdata/helix/"
   flavours: # Specific flavours
     all:
       default:
