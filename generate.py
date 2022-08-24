@@ -7,7 +7,7 @@ PALETTES_DIR = DIRNAME / "data" / "palettes"
 CONFIGS_DIR = DIRNAME / "data" / "configs"
 TARGET_DIR = Path("themes/")
 
-
+# load the styles
 def load_styles(config_name):
     with (CONFIGS_DIR / "default.json").open("r") as f:
         default_config = json.load(f)
