@@ -5,7 +5,7 @@ installation: # Install instructions
   location:
     macos: ~/.config/helix
     linux: ~/.config/helix
-    windows: "%appdata/helix/"
+    windows: "%appdata%/helix/"
   flavours: # Specific flavours
     all:
       default:
