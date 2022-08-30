@@ -11,33 +11,33 @@ installation: # Install instructions
       default:
         - themes/default
       additional:
-        no-italics:
-          - themes/no-italics
+        no_italics:
+          - themes/no_italics
     latte:
       default: # Default and no-italic variants
         - themes/default/catppuccin_latte.toml
       additional:
-        no-italics:
-          - themes/no-italics/catppuccin_latte.toml
+        no_italics:
+          - themes/no_italics/catppuccin_latte.toml
     frappe:
       default:       
         - themes/default/catppuccin_frappe.toml
       additional:
-        no-italics:
-          - themes/no-italics/catppuccin_frappe.toml
+        no_italics:
+          - themes/no_italics/catppuccin_frappe.toml
     macchiato:
       default:
         - themes/default/catppuccin_macchiato.toml
       additional:
-        no-italics:
-          - themes/no-italics/catppuccin_macchiato.toml
+        no_italics:
+          - themes/no_italics/catppuccin_macchiato.toml
     mocha:
       default:
         - themes/default/catppuccin_mocha.toml
       additional:
-        no-italics:
-          - themes/no-italics/catppuccin_mocha.toml
+        no_italics:
+          - themes/no_italics/catppuccin_mocha.toml
   to: themes/ # Install location
   one_flavour: false # Only one flavour?
   modes: # Additional modes
-    - no-italics
+    - no_italics
